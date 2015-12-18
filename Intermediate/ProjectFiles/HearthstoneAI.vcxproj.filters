@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HearthstoneAI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1E7D800F-1299-4CBF-BD86-BBB204DBE940}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HearthstoneAI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HearthstoneAIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{978B2FD1-8100-4C11-868D-1108AADBBFDE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HearthstoneAI">
+      <UniqueIdentifier>{ABBA9955-7262-4F40-89CE-3493C40E7433}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HearthstoneAI\CardData.cpp">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\CardData.h">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HearthstoneAI\HearthstoneAI.Build.cs">
+      <Filter>Source\HearthstoneAI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HearthstoneAI\HearthstoneAI.cpp">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\HearthstoneAI.h">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\HearthstoneAIBlock.cpp">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\HearthstoneAIBlock.h">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\HearthstoneAIBlockGrid.cpp">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\HearthstoneAIBlockGrid.h">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\HearthstoneAIGameMode.cpp">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\HearthstoneAIGameMode.h">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\HearthstoneAIPlayerController.cpp">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\HearthstoneAIPlayerController.h">
+      <Filter>Source\HearthstoneAI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HearthstoneAI\Actions">
+      <UniqueIdentifier>{2912332D-52AD-47E7-90D2-A029CBEAC70B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HearthstoneAI\Actions\MinionAttack.cpp">
+      <Filter>Source\HearthstoneAI\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\Actions\MinionAttack.h">
+      <Filter>Source\HearthstoneAI\Actions</Filter>
+    </ClInclude>
+    <Filter Include="Source\HearthstoneAI\BaseStructs">
+      <UniqueIdentifier>{E2A3BC07-E7ED-4DCB-A932-B2BA68809D85}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HearthstoneAI\BaseStructs\Action.cpp">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\BaseStructs\Action.h">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\BaseStructs\BoardState.cpp">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\BaseStructs\BoardState.h">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\BaseStructs\Card.cpp">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\BaseStructs\Card.h">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\BaseStructs\HearthstoneAIFunctions.cpp">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\BaseStructs\HearthstoneAIFunctions.h">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\BaseStructs\Minion.cpp">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\BaseStructs\Minion.h">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HearthstoneAI\BaseStructs\ScoreData.cpp">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HearthstoneAI\BaseStructs\ScoreData.h">
+      <Filter>Source\HearthstoneAI\BaseStructs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\HearthstoneAI\Interfaces">
+      <UniqueIdentifier>{62a4567b-610a-4090-9b54-30642eefdaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HearthstoneAI\CardTypes">
+      <UniqueIdentifier>{d9c8451c-1f3a-4bb1-8cf3-1934f2221fe7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HearthstoneAI\Interfaces\BattlecryInterface.h">
+      <Filter>Source\HearthstoneAI\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HearthstoneAI\CardTypes\MinionCard.h">
+      <Filter>Source\HearthstoneAI\CardTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HearthstoneAI\Actions\SummonMinion.h">
+      <Filter>Source\HearthstoneAI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HearthstoneAI\Actions\CombinedAction.h">
+      <Filter>Source\HearthstoneAI\Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HearthstoneAI\CardTypes\MinionCard.cpp">
+      <Filter>Source\HearthstoneAI\CardTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HearthstoneAI\Interfaces\BattlecryInterface.cpp">
+      <Filter>Source\HearthstoneAI\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HearthstoneAI\Actions\SummonMinion.cpp">
+      <Filter>Source\HearthstoneAI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HearthstoneAI\Actions\CombinedAction.cpp">
+      <Filter>Source\HearthstoneAI\Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
